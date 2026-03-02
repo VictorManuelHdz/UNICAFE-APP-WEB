@@ -6,7 +6,7 @@ Proyecto de interfaz para la aplicación Unicafe utilizando **Tailwind CSS v4**.
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [URL-de-tu-repo]
+   git clone [URL-de-tu-repo
 
 2. **Instalar dependencias**
 npm install
@@ -14,7 +14,7 @@ npm install
 3. **Copilar tailwind**
 npx @tailwindcss/cli -i ./SRC/input.css -o ./public/css/output.css --content "./public/**/*.html" --watch
 
-nmp run dev
+npm run dev 
 
 4. **Flujo de trabajo en GitHub**
 Para que el trabajo fluya, sigan estos pasos:
