@@ -5,7 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aviso de Privacidad – Cafetería UTHH</title>
-    <link rel="stylesheet" href="css/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'unicafe-header': '#7d5d36', 
+                'unicafe-botones': '#2A9D8F',
+                'unicafe-body': '#fdfbf7',
+              }
+            }
+          }
+        }
+    </script>
 </head>
 
 <body class="bg-unicafe-body text-[#1f1f1f] min-h-screen font-sans flex flex-col">
@@ -16,22 +29,20 @@
         <span class="font-bold text-lg">Cafetería UTHH</span>
     </header>
 
-    <main class="flex-grow p-6 max-w-5xl mx-auto w-full">
+    <main class="flex-grow p-6 max-w-5xl mx-auto w-full mt-4">
 
-        <h1 class="text-center text-2xl font-bold mb-2">
-         Aviso de Privacidad
-        </h1>
+        <div class="bg-white border-2 border-[#bfa88a] rounded-md shadow-sm p-10 transition-all duration-300">
 
-        <p class="text-center mb-8 text-gray-600 text-sm">
-            Información sobre el uso y protección de datos personales.
-        </p>
+            <div class="flex justify-between items-center mb-4">
+                <h1 class="text-2xl font-bold text-unicafe-header">
+                    Aviso de Privacidad
+                </h1>
 
-        <div class="relative bg-white border-2 border-[#bfa88a] rounded-md p-10 shadow-sm hover:shadow-md transition-all duration-300">
-
-            <a href="#"
-               class="absolute top-4 right-4 bg-unicafe-botones text-white px-4 py-2 rounded-lg font-bold text-sm hover:bg-opacity-90 transition-all">
-                Editar
-            </a>
+                <a href="editar_aviso.html"
+                   class="bg-unicafe-botones text-white px-6 py-2 rounded-lg font-bold text-sm hover:brightness-95 transition-all shadow-md">
+                    Editar
+                </a>
+            </div>
 
             <div class="h-px bg-gray-200 mb-8"></div>
 
@@ -83,7 +94,7 @@
 
     </main>
 
-    <footer class="bg-unicafe-header text-white text-center p-4 text-sm">
+    <footer class="bg-unicafe-header text-white text-center p-4 text-sm mt-10">
         © 2026 Cafetería UTHH — Todos los derechos reservados.
     </footer>
 
