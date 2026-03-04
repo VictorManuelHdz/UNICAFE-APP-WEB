@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somos Unicafe – Cafetería UTHH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'unicafe-header': '#7d5d36', 
+                'unicafe-botones': '#2A9D8F',
+                'unicafe-body': '#f1e6d3', 
+              }
+            }
+          }
+        }
+    </script>
+</head>
+
+<body class="bg-unicafe-body min-h-screen font-sans text-[#333] flex flex-col">
+
+    <header class="bg-unicafe-header text-white p-4 shadow-md">
+        <div class="max-w-6xl mx-auto">
+            <h1 class="font-bold text-lg">Cafetería UTHH</h1>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-5xl mx-auto p-12">
+
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-[#1f1f1f]">Somos Unicafe</h2>
+        </div>
+
+        <div class="flex flex-col md:flex-row items-start gap-12">
+            
+            <div class="w-full md:w-1/2">
+                <img src="imagenes/unicafe1.jpg" 
+                     alt="Instalaciones Unicafe" 
+                     class="w-full h-auto rounded-xl shadow-md border border-gray-200">
+            </div>
+
+            <div class="w-full md:w-1/2 space-y-6 pt-4">
+                <p class="text-lg leading-snug">
+                    Somos el corazón de tu escuela, ahora en tu bolsillo
+                </p>
+                <p class="text-lg leading-relaxed">
+                    En la cafetería escolar, creemos que la alimentación es fundamental para el aprendizaje y el bienestar. Por eso, nos esforzamos por ofrecer opciones saludables, deliciosas y asequibles a toda la comunidad educativa.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-20">
+            <a href="index.html"
+               class="bg-unicafe-botones text-white px-8 py-2 rounded-lg font-bold hover:brightness-95 transition shadow-md">
+               Regresar al Inicio
+            </a>
+        </div>
+
+    </main>
+
+    <footer class="bg-unicafe-header text-white text-center p-4 text-sm mt-10">
+        © 2026 Cafetería UTHH — Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
