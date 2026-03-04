@@ -1,95 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Somos Unicafe – Cafetería UTHH</title>
-<link rel="stylesheet" href="css/output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somos Unicafe – Cafetería UTHH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'unicafe-header': '#7d5d36', 
+                'unicafe-botones': '#2A9D8F',
+                'unicafe-body': '#f1e6d3', 
+              }
+            }
+          }
+        }
+    </script>
 </head>
 
-<body class="bg-unicafe-body min-h-screen font-sans text-[#1f1f1f] flex flex-col">
+<body class="bg-unicafe-body min-h-screen font-sans text-[#333] flex flex-col">
 
+    <header class="bg-unicafe-header text-white p-4 shadow-md">
+        <div class="max-w-6xl mx-auto">
+            <h1 class="font-bold text-lg">Cafetería UTHH</h1>
+        </div>
+    </header>
 
-<header class="bg-unicafe-header text-white p-4 shadow-md flex justify-between items-center">
-    <h1 class="font-bold text-lg">Cafetería UTHH</h1>
-</header>
+    <main class="flex-grow max-w-5xl mx-auto p-12">
 
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-[#1f1f1f]">Somos Unicafe</h2>
+        </div>
 
-<main class="flex-grow max-w-6xl mx-auto p-6">
-
-  
-    <div class="text-center mb-10">
-        <h2 class="text-2xl font-bold">Somos Unicafe</h2>
-        <p class="text-gray-600 text-sm mt-2">
-            Conoce más sobre nuestra cafetería y nuestro compromiso con la comunidad UTHH.
-        </p>
-    </div>
-
-    <div class="space-y-16">
-
-        
-        <div class="flex flex-col md:flex-row items-center gap-10">
+        <div class="flex flex-col md:flex-row items-start gap-12">
             
-            <div class="flex-1 bg-white border border-[#bfa88a] rounded-xl shadow-sm overflow-hidden h-72">
+            <div class="w-full md:w-1/2">
                 <img src="imagenes/unicafe1.jpg" 
-                     alt="Nuestra cafetería"
-                     class="w-full h-full object-cover">
+                     alt="Instalaciones Unicafe" 
+                     class="w-full h-auto rounded-xl shadow-md border border-gray-200">
             </div>
 
-            <div class="flex-1 text-lg leading-relaxed">
-                Somos una cafetería comprometida con brindar productos de calidad
-                a la comunidad estudiantil de la UTHH. Nuestro objetivo es ofrecer
-                un espacio cómodo, accesible y con excelente servicio.
+            <div class="w-full md:w-1/2 space-y-6 pt-4">
+                <p class="text-lg leading-snug">
+                    Somos el corazón de tu escuela, ahora en tu bolsillo
+                </p>
+                <p class="text-lg leading-relaxed">
+                    En la cafetería escolar, creemos que la alimentación es fundamental para el aprendizaje y el bienestar. Por eso, nos esforzamos por ofrecer opciones saludables, deliciosas y asequibles a toda la comunidad educativa.
+                </p>
             </div>
+
         </div>
 
-        
-        <div class="flex flex-col md:flex-row-reverse items-center gap-10">
-            
-            <div class="flex-1 bg-white border border-[#bfa88a] rounded-xl shadow-sm overflow-hidden h-72">
-                <img src="imagenes/unicafe2.jpg" 
-                     alt="Equipo Unicafe"
-                     class="w-full h-full object-cover">
-            </div>
-
-            <div class="flex-1 text-lg leading-relaxed">
-                Contamos con un equipo responsable y dedicado,
-                enfocado en la satisfacción de nuestros clientes
-                y en mejorar continuamente la experiencia dentro
-                de nuestras instalaciones.
-            </div>
+        <div class="text-center mt-20">
+            <a href="index.html"
+               class="bg-unicafe-botones text-white px-8 py-2 rounded-lg font-bold hover:brightness-95 transition shadow-md">
+               Regresar al Inicio
+            </a>
         </div>
 
-       
-        <div class="flex flex-col md:flex-row items-center gap-10">
-            
-            <div class="flex-1 bg-white border border-[#bfa88a] rounded-xl shadow-sm overflow-hidden h-72">
-                <img src="imagenes/unicafe3.jpg" 
-                     alt="Productos Unicafe"
-                     class="w-full h-full object-cover">
-            </div>
+    </main>
 
-            <div class="flex-1 text-lg leading-relaxed">
-                Ofrecemos una variedad de bebidas, alimentos y promociones
-                pensadas especialmente para estudiantes y docentes,
-                garantizando frescura y buen sabor en cada producto.
-            </div>
-        </div>
-
-    </div>
-
-    <div class="text-center mt-12">
-        <a href="index.html"
-           class="bg-unicafe-botones text-white px-6 py-2 rounded-lg font-bold hover:bg-opacity-90 transition shadow">
-           Regresar al Inicio
-        </a>
-    </div>
-
-</main>
-
-<footer class="bg-unicafe-header text-white text-center p-4 text-sm">
-    © 2026 Cafetería UTHH — Todos los derechos reservados.
-</footer>
+    <footer class="bg-unicafe-header text-white text-center p-4 text-sm mt-10">
+        © 2026 Cafetería UTHH — Todos los derechos reservados.
+    </footer>
 
 </body>
 </html>
