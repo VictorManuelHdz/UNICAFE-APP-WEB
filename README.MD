@@ -38,3 +38,19 @@ Para que el trabajo fluya, sigan estos pasos:
 ├── .gitignore             <-- Para no subir basura a GitHub
 ├── package.json           <-- Configuración de scripts
 └── README.md              <-- Instrucciones para tu equipo 
+
+
+--------------------------------------------------
+Guardar cambios:	git add .
+                    git commit -m "mensaje"
+-------------------------------------------------
+Subir a tu rama:	git push origin tu-rama
+-------------------------------------------------
+Pasar a main:   	git checkout main
+
+Actualizar el main o extraer los cambios recientes:     Git pull origin main
+
+combina main con tu rama:    git merge tu-rama 
+---------------------------------------------------
+Subir main:     	git push origin main
+---------------------------------------------------
