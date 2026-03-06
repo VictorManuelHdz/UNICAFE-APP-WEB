@@ -44,7 +44,7 @@ class NavSecundario extends HTMLElement {
                 <a class="pill ${activeClass('index')}" href="${toRoot}index.html">
                     HOME <span class="ico">🏠</span>
                 </a>
-                <a class="pill ${activeClass('productos')}" href="${toFolder}gestion_productos.html">
+                <a class="pill ${activeClass('productos')}" href="${toFolder}productos.html">
                     PRODUCTOS <span class="ico">📦</span>
                 </a>
                 <a class="pill ${activeClass('menu')}" href="${toFolder}menu.html">
@@ -52,6 +52,9 @@ class NavSecundario extends HTMLElement {
                 </a>
                 <a class="pill ${activeClass('pedidos')}" href="${toFolder}pedidos.html">
                     PEDIDOS <span class="ico">📋</span>
+                </a>
+                <a class="pill ${activeClass('productos')}" href="${toFolder}gestion_productos.html">
+                    PRODUCTOS <span class="ico">⚙️</span>
                 </a>
                 <a class="pill ${activeClass('terminos')}" href="${toFolder}gestion_terminos.html">
                     TÉRMINOS <span class="ico">⚙️</span>
