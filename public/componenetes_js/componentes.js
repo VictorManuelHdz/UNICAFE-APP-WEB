@@ -56,7 +56,7 @@ class NavSecundario extends HTMLElement {
                 <a class="pill ${activeClass('terminos')}" href="${toFolder}gestion_terminos.html">
                     TÉRMINOS <span class="ico">⚙️</span>
                 </a>
-                <a class="pill ${activeClass('aviso')}" href="${toFolder}aviso_de_privacidad.html">
+                <a class="pill ${activeClass('aviso')}" href="${toFolder}Aviso_de_privacidad.html">
                     AVISO <span class="ico">⚙️</span>
                 </a>
                 <a class="pill ${activeClass('somos')}" href="${toFolder}gestion_somos.html">
@@ -64,6 +64,9 @@ class NavSecundario extends HTMLElement {
                 </a>
                 <a class="pill ${activeClass('usuario')}" href="${toFolder}usuarios.html">
                     REGISTROS <span class="ico">👤</span>
+                </a>
+                 <a class="pill ${activeClass('reportes')}" href="${toFolder}reportes.html">
+                    REPORTES <span class="ico">👤</span>
                 </a>
             </div>
           </div>
