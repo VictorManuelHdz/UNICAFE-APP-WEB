@@ -44,7 +44,7 @@ class NavSecundario extends HTMLElement {
                 <a class="pill ${activeClass('index')}" href="${toRoot}index.html">
                     HOME <span class="ico">🏠</span>
                 </a>
-                <a class="pill ${activeClass('productos')}" href="${toFolder}productos.html">
+                <a class="pill ${activeClass('productos')}" href="${toFolder}gestion_productos.html">
                     PRODUCTOS <span class="ico">📦</span>
                 </a>
                 <a class="pill ${activeClass('menu')}" href="${toFolder}menu.html">
@@ -53,16 +53,16 @@ class NavSecundario extends HTMLElement {
                 <a class="pill ${activeClass('pedidos')}" href="${toFolder}pedidos.html">
                     PEDIDOS <span class="ico">📋</span>
                 </a>
-                <a class="pill ${activeClass('terminos')}" href="${toFolder}terminos.html">
+                <a class="pill ${activeClass('terminos')}" href="${toFolder}gestion_terminos.html">
                     TÉRMINOS <span class="ico">⚙️</span>
                 </a>
                 <a class="pill ${activeClass('aviso')}" href="${toFolder}aviso_de_privacidad.html">
                     AVISO <span class="ico">⚙️</span>
                 </a>
-                <a class="pill ${activeClass('somos')}" href="${toFolder}somos.html">
+                <a class="pill ${activeClass('somos')}" href="${toFolder}gestion_somos.html">
                     SOMOS <span class="ico">⚙️</span>
                 </a>
-                <a class="pill ${activeClass('registro')}" href="${toFolder}registro.html">
+                <a class="pill ${activeClass('usuario')}" href="${toFolder}usuarios.html">
                     REGISTROS <span class="ico">👤</span>
                 </a>
             </div>
