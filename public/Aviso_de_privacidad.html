@@ -2,97 +2,95 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Aviso de Privacidad – Cafetería UTHH</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                'unicafe-header': '#7d5d36', 
-                'unicafe-botones': '#2A9D8F',
-                'unicafe-body': '#fdfbf7',
-              }
-            }
-          }
-        }
-    </script>
+
+    <link rel="stylesheet" href="css/output.css" />
 </head>
 
 <body class="bg-unicafe-body text-[#1f1f1f] min-h-screen font-sans flex flex-col">
 
 <div class="app flex flex-col flex-grow">
-        <header>
-            <div class="w-full bg-unicafe-header text-white p-4 md:p-6 flex justify-center items-center shadow-md">
-                <h1 class="m-0 text-xl md:text-3xl font-[800] tracking-wider uppercase">CAFETERIA UTHH</h1>
+
+<header>
+    <div class="w-full bg-unicafe-header text-white p-4 md:p-6 flex justify-center items-center shadow-md">
+        <h1 class="m-0 text-xl md:text-3xl font-[800] tracking-wider uppercase">
+            CAFETERIA UTHH
+        </h1>
+    </div>
+</header>
+
+<main class="flex-grow p-6 max-w-5xl mx-auto w-full mt-4">
+
+    <div class="bg-white border-2 border-unicafe-border rounded-md shadow-sm p-10 transition-all duration-300">
+
+        <div class="flex justify-between items-center mb-4">
+
+            <h1 class="text-2xl font-bold text-unicafe-header">
+                Aviso de Privacidad
+            </h1>
+
+            <a href="editar_aviso.html"
+               class="bg-unicafe-botones text-white px-6 py-2 rounded-lg font-bold text-sm hover:brightness-95 transition-all shadow-md">
+                Editar
+            </a>
+
+        </div>
+
+        <div class="h-px bg-gray-200 mb-8"></div>
+
+        <div class="space-y-8 leading-relaxed text-gray-700">
+
+            <div>
+                <h3 class="font-bold text-unicafe-header text-lg mb-2 uppercase tracking-wide">
+                    Responsable del Tratamiento
+                </h3>
+
+                <p>
+                    La Cafetería UTHH es responsable del tratamiento y protección
+                    de sus datos personales conforme a la normativa aplicable.
+                </p>
             </div>
-        </header>
-    <main class="flex-grow p-6 max-w-5xl mx-auto w-full mt-4">
 
-        <div class="bg-white border-2 border-[#bfa88a] rounded-md shadow-sm p-10 transition-all duration-300">
+            <div>
+                <h3 class="font-bold text-unicafe-header text-lg mb-2 uppercase tracking-wide">
+                    Datos Recabados
+                </h3>
 
-            <div class="flex justify-between items-center mb-4">
-                <h1 class="text-2xl font-bold text-unicafe-header">
-                    Aviso de Privacidad
-                </h1>
-
-                <a href="editar_aviso.html"
-                   class="bg-unicafe-botones text-white px-6 py-2 rounded-lg font-bold text-sm hover:brightness-95 transition-all shadow-md">
-                    Editar
-                </a>
+                <p>
+                    Se podrán recopilar datos como nombre, correo electrónico y
+                    datos necesarios para realizar pedidos dentro del sistema.
+                </p>
             </div>
 
-            <div class="h-px bg-gray-200 mb-8"></div>
+            <div>
+                <h3 class="font-bold text-unicafe-header text-lg mb-2 uppercase tracking-wide">
+                    Finalidad del Uso
+                </h3>
 
-            <div class="space-y-8 leading-relaxed text-gray-700">
+                <p>
+                    Los datos serán utilizados para la gestión de pedidos,
+                    administración del sistema y mejora continua del servicio.
+                </p>
+            </div>
 
-                <div>
-                    <h3 class="font-bold text-unicafe-header text-lg mb-2 uppercase tracking-wide">
-                        Responsable del Tratamiento
-                    </h3>
-                    <p>
-                        La Cafetería UTHH es responsable del tratamiento y protección
-                        de sus datos personales conforme a la normativa aplicable.
-                    </p>
-                </div>
+            <div>
+                <h3 class="font-bold text-unicafe-header text-lg mb-2 uppercase tracking-wide">
+                    Derechos ARCO
+                </h3>
 
-                <div>
-                    <h3 class="font-bold text-unicafe-header text-lg mb-2 uppercase tracking-wide">
-                        Datos Recabados
-                    </h3>
-                    <p>
-                        Se podrán recopilar datos como nombre, correo electrónico y
-                        datos necesarios para realizar pedidos dentro del sistema.
-                    </p>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-unicafe-header text-lg mb-2 uppercase tracking-wide">
-                        Finalidad del Uso
-                    </h3>
-                    <p>
-                        Los datos serán utilizados para la gestión de pedidos,
-                        administración del sistema y mejora continua del servicio.
-                    </p>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-unicafe-header text-lg mb-2 uppercase tracking-wide">
-                        Derechos Arco
-                    </h3>
-                    <p>
-                        Usted puede acceder, rectificar, cancelar u oponerse al uso
-                        de sus datos personales mediante solicitud correspondiente.
-                    </p>
-                </div>
-
+                <p>
+                    Usted puede acceder, rectificar, cancelar u oponerse al uso
+                    de sus datos personales mediante solicitud correspondiente.
+                </p>
             </div>
 
         </div>
 
-    </main>
+    </div>
+
+</main>
 
 </div>
 
